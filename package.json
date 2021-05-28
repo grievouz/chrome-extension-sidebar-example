@@ -1,0 +1,14 @@
+{
+  "name": "chrome-extension-sidebar-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Grievouz",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf public/js && tsc -p ."
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  }
+}
